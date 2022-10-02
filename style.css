@@ -1,0 +1,169 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(247, 234, 0);
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 1200px;
+  height: 1300px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.container2 {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 1150px;
+}
+
+.top-bar {
+  margin-left: 55px;
+}
+
+.piece {
+  display: inline-block;
+}
+
+.reactpizza {
+  margin-top: 30px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.bar2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 53px;
+}
+
+.btn1 {
+  position: relative;
+  bottom: 10px;
+  font-weight: 700;
+  border-style: none;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  background-color: #fe5f1e;
+  margin-left: 620px;
+}
+
+.btn2 {
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 33px;
+  margin-left: 15px;
+  width: 100px;
+  height: 33px;
+  border-color: transparent;
+  border-radius: 30px;
+  background-color: #ededed;
+}
+
+.btn2:first-child {
+  width: 70px;
+  margin-left: 0;
+  /* color: #fff;
+    background-color:black; */
+}
+
+.sort {
+  margin-left: 158px;
+  display: inline-block;
+}
+
+input {
+  width: 140px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  margin-top: 23px;
+  margin-left: 23px;
+  display: inline-block;
+}
+
+.box5,
+.box6,
+.box7,
+.box8 {
+  margin-top: 60px;
+  margin-left: 23px;
+  display: inline-block;
+}
+
+.boxin {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  width: 260px;
+  height: 90px;
+  text-align: center;
+}
+
+.btns {
+  border-radius: 7px;
+  border-color: #fff;
+  width: 65px;
+  height: 30px;
+  background-color: #fff;
+  margin: 7px 8px;
+}
+.btns:first-child {
+  margin: 8px 5px;
+  width: 100px;
+}
+.btns:nth-child(2) {
+  margin: 0;
+  width: 100px;
+}
+
+.boxbtn button {
+  height: 30px;
+  width: 130px;
+  margin-left: 50px;
+  border-radius: 15px;
+  border-color: #fe5f1e;
+  background-color: white;
+  color: #fe5f1e;
+  font-weight: 600;
+}
+
+.btn1:hover {
+  background-color: #fff;
+  border: 3px solid #fe5f1e;
+  color: #fe5f1e;
+  transform: scale(1.1);
+}
+.btn1 {
+  transition: all 0.3s;
+}
+
+.btn2:focus {
+  background-color: black;
+  color: #fff;
+}
+.btn2:hover {
+  border: 1px solid rgb(142, 142, 142);
+  transform: scale(1.04);
+}
+.btn2 {
+  transition: all.3s;
+}
+.boxbtn button:hover {
+  color: #fff;
+  background-color: #fe5f1e;
+  transform: scale(1.04);
+}
+.boxbtn button {
+  transition: all.3s;
+}
